@@ -7,6 +7,4 @@ var_b = input()
 print("summan av talen är: ")
 var_c = int(var_a) + int(var_b)
 
-
-print(var_a, var_b)
 print(var_c)

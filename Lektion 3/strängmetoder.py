@@ -21,3 +21,5 @@ str13 = str4 + str3 + str5 + str3 + str1 + str3 + str9
 print(str13)
 str14 = str13.title()
 print(str14.swapcase() + str3 + str2)
+
+##klar, kanske inte super snyggt men... Började med att dela på str1 i 2 delar och tilldela de 2 nyua variabler

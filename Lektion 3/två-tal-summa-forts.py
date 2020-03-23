@@ -4,3 +4,4 @@ var_a, var_b = float(input("tal 1: ")), float(input("tal 2: "))
 print(f"talen är med f-strings: {var_a} och {var_b}")
 print("differensen av talen är: ", var_a - var_b, "\n", "produkten av talen är: ", 
 var_a * var_b, "\n", "kvoten av talen är: ", var_a / var_b)
+#jobba mer med den senare och lägg in strängkonkatenering ??

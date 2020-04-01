@@ -1,0 +1,8 @@
+#
+lista = [2,4,4,5,6,8,9,10,11]
+for x in lista:
+        if x % 2 ==0: 
+            print(x, "Är ett jämnt tal")
+        elif x % 2 !=0:
+            print(x, "Är ett ojämnt tal, det får man inte")
+            break

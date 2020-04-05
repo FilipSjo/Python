@@ -1,0 +1,5 @@
+hello this is a testfile to test some print and read thingies in python
+very cool
+much wow
+ grisar
+ grisarhej glassHej glass

@@ -15,6 +15,7 @@
 
 #funktion modulus (%)
 
+#Löst med If-satser
 tal1, tal2 = int(input("Ange ett tal \n")), int(input("Nästa tal \n"))
 
 

@@ -1,3 +1,4 @@
+#jävligt viktigt att få till indenteringen rätt, annars fungerar inte looparna som dom ska!!!
 num_list = [1, 2, 3]
 alpha_list = ['a', 'b', 'c']
 for number in num_list: 

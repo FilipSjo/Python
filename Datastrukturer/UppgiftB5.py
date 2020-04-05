@@ -1,4 +1,4 @@
-pers1 = {input("Ange namn för person 1: ") : int(input("Ange ålder för person 1: ")), int(input("Ange skostorlek för person 1: "))}
+pers1 = {input("Ange namn för person 1: ") : [int(input("Ange ålder för person 1: ")), int(input("Ange skostorlek för person 1: "))]}
 
 pers1sort = sorted(pers1.values())
 pers1sort2 = sorted(pers1.keys())

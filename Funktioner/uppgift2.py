@@ -1,0 +1,1 @@
+#ändrade i koden för övriga uppgifter, helt klart enklare att ändra i funktionerna som är definerade i början av koden än att behöva hoppa runt

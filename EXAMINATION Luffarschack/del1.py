@@ -13,7 +13,7 @@ lista9 = ['7','8','9']
 
 lista10 = []
 #eventuellt att printen konverterar från siffror till '' vid print för att det ska vara tydligare att se spelplanen
-df = pd.DataFrame({'A':lista7, 'B': lista8, 'C': lista9})
+df = pd.DataFrame({'A':lista1, 'B': lista2, 'C': lista3})
 df2 = pd.DataFrame({'A':lista1, 'B': lista2, 'C': lista3})
 #räkna varv i loopen så att man kan se vilket "Drag-nummer" man är på, detta kan vara bra för statistikdelen
 """print("Ange 12 tal som kommer delas in i 3st listor")
@@ -44,10 +44,28 @@ for i in df:
 #print(hej)
 #df2.set_index('name', inplace=True)
 #hej2 = df2.replace({'A' : }, 'X')
-
 #funktion för detta som tar 2 argument, sedan en annan funktion som gör samma sak fast ersätter med 'O'
-hej = df.replace(['A','1'], 'X') #kolla här om det bara behövde vara '1', eller 1
 
+#behöver ta in en tidigare version av dataframen och uppdatera
+"""
+def make_board(var_1, var_2):
+    print("How big should the board be? Input amount of Columns:")#skapa så många nya arrayer
+    print("Input amount of  rows")#skapa så många element per array, låt dom pupuleras mha en matematisk funktion
+#input"""
+def replace_for_x(str_1, str_2):
+    hej = df.replace([str_1, str_2], 'O')
+    return hej
+#behöver en konvertering till ''(sträng samt lägga till "fnuttar") för input
+def replace_for_o(str_3, str_4):
+    hej2 = df.replace(df.loc[str_3, str_4], 'X')
+    #hej2 = df.replace([str_3, str_4], 'X')
+    return hej2
+
+df2 = replace_for_x('B', '4')
+print("\n")
+print(df2)
+
+hej = df.replace(['A', 1], 'X') #kolla här om det bara behövde vara '1', eller 1
 print(hej)
 
 #för att snygga till kanske man ska ha elementen i lista i form av en dict så att brädet ser tomt ut i början,

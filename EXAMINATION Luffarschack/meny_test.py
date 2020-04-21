@@ -1,17 +1,10 @@
 # denna funkar
 
-
-def inmatning():
-    try:
-        tal1 = str(input("Ange ett alternativ i menyn \n"))
-    except KeyError as error:
-        print(f"{tal1} är inte ett giltigt värde, vänligen ange en siffra mellan 1-3")
+#
+def skriva_i_meny():
+   
+    tal1 = str(input("Ange ett alternativ i menyn \n"))
     return tal1
-
-
-
-
-
 
 def start1():
     print("Detta är start 1111")
@@ -25,11 +18,20 @@ def start3():
 def rita_meny(var1, meny):
     print(f"Du har valt meny-alternativ {var1} ")
     meny[var1]
-#skapa en klass för meny istället
+
+def rita_meny2(meny):
+    print("Detta är menyn för spelet Luffarschack!:\n")
+    print("1 för blablalba") 
+    print("2 för blablalba")
+    print("3 för blablalba")
+    print("4 för blablalba")
+
 meny = {
     '1' : start1,
     '2' : start2,
     '3' : start3,
 }
-#meny[inmatning()]()
-inmatning()
+
+rita_meny2(meny)
+meny[skriva_i_meny()]()
+

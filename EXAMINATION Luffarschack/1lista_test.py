@@ -35,9 +35,17 @@ def placera_marker(kolumn, element, spelplan):
     return spelplan
 
 
-rita_spelplan()
-inmatning()
-gris = placera_marker(inmatning(),spelplan)
+# rita_spelplan()
+# inmatning()
+# gris = placera_marker(inmatning(),spelplan)
 
 
+stringen = "hejhejhej"
 
+
+print(stringen[2])
+
+stringen[2] = "g"
+
+print(stringen[2])
+print(stringen)
